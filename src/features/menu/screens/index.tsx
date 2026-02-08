@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useTheme } from '../../../contexts/ThemeContext';
 
-export const FavoritesScreen = () => {
+export const MenuScreen = () => {
   const { theme } = useTheme();
 
   return (
@@ -10,7 +10,7 @@ export const FavoritesScreen = () => {
       style={[styles.container, { backgroundColor: theme.colors.background }]}
     >
       <Text style={[styles.title, { color: theme.colors.text }]}>
-        Favorites Screen
+        Menu Screen
       </Text>
     </View>
   );
